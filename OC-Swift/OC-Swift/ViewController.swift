@@ -22,6 +22,17 @@ class ViewController: UIViewController {
         }
     
 //        我刚刚提交的东西
+        
+        
+        let block = {(cxz:Int) -> Int in
+            
+            print(cxz)
+            return cxz
+            
+        }
+        print("guoqude  \(block(600))")
+        
+    
     
     }
 
